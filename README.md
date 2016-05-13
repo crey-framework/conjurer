@@ -113,7 +113,7 @@ $notifier = $container->getNotifierRepository();
 
 $notifer->setBuildFailCallback(function(Throwable $exception, ServiceContract $service) {
     echo sprintf(
-        'Something went wrong while building an instance of %s. The process terminated with the message `%s`,
+        'Something went wrong while building an instance of %s. The process terminated with the message `%s`',
         $service->getInterface(),
         $exception->getMessage()
     );
