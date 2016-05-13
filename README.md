@@ -5,9 +5,9 @@ Conjurer - CREY Framework Service Management Component
 
 Conjurer is the service container of CREY, a PHP 7 component-based Framework.
 
-### Metrics
+### Metrics of master branch
 
-![Package Metrics](package-metrics.svg)
+![Package Metrics](https://cdn.rawgit.com/crey-framework/conjurer/master/package-metrics.svg)
 
 ### License
 
