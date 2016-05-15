@@ -11,7 +11,7 @@ Conjurer is the service container of CREY, a PHP 7 component-based Framework.
 
 ### License
 
-The provided source code is licensed under the therms of the [MIT license](LICENSE).
+The provided source code is licensed under the terms of the [MIT license](LICENSE).
 
 ### Usage
 
