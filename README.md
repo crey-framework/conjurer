@@ -29,8 +29,9 @@ to be used as a dependency parameter resource.
 
 use Crey\Conjurer\{
     Conjurer,
-    Service
-}
+    Service,
+    Factory
+};
 
 $container = new Conjurer();
 $container->register(new class(DateTime::class) extends Factory {
@@ -62,8 +63,9 @@ $dateTime = $container->make(DateTime::class);
 
 use Crey\Conjurer\{
     Conjurer,
-    Service
-}
+    Service,
+    Factory
+};
 
 $container = new Conjurer();
 
@@ -106,7 +108,7 @@ is planned for the near future.
 use Crey\Conjurer\{
     Conjurer,
     ServiceContract
-}
+};
 
 $container = new Conjurer();
 $notifier = $container->getNotifierRepository();
